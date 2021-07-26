@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+
+}
+html {
+    font-size: 7px;
+  }
+  #icons a img {
+    width: 50px;
+    padding: 8px;
+    margin: 2px;
+    filter: invert(100%);
+  }
+  .problem {
+    width: 15rem;
+    height: 15rem;
+  }
+  #parentid {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.3rem;
+  }
+  .badge-info {
+    margin-block: 2.1rem;
+  }
+  #searchquery {
+    border: none;
+    padding: 0.5rem 0.9rem;
+    width: max-content;
+    outline: 1px solid black;
+    margin-top: 1rem;
+    margin-left: 3.8rem;
+  }
+  #downloadbtn {
+    width: 18rem;
+  }
+  #icons a {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: -11px;
+  }
+  #icons {
+    margin-left: -2px;
+  }
+  @media (min-width: 400px) {
+  }
+
+  /* Larger than phablet (also point when grid becomes active) */
+  @media (min-width: 550px) {
+    html {
+      font-size: 14px;
+    }
+  }
+
+  /* Larger than tablet */
+  @media (min-width: 750px) {
+    html {
+      font-size: 15px;
+    }
+  }

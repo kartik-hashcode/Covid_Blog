@@ -1,0 +1,19 @@
+{
+  "name": "newcovidblog",
+  "version": "1.0.0",
+  "description": "covid site",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdj309/Covidblog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kdj309/Covidblog/issues"
+  },
+  "homepage": "https://github.com/kdj309/Covidblog#readme"
+}
